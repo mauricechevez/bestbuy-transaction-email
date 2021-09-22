@@ -2,8 +2,8 @@
 This is a recreation of a Receipt from Best Buy. My personal information has been redacted, and will be replaced with fictional info. The original email is **not** responsive. Although some responsiveness works in this version, I don't intend for it to be responsive either.
 
 # Current Result
-
-Coming Soon..
+Email complete. I'm sure there's a programmatic way that the receipt section actually generates, but that's beyond the scope of this little project.
+[https://mauricechevez.github.io/bestbuy-transaction-email/](https://mauricechevez.github.io/bestbuy-transaction-email/)
 
 # Original Email Screenshot
 This is the original email. Click the preview see the full image.
