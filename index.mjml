@@ -1,13 +1,15 @@
 <mjml>
 <mj-head>
+    <mj-breakpoint width="0px" />
     <mj-title>Your Best Buy Receipt</mj-title>
     <mj-attributes>
-    <mj-all font-family="Arial" />
-    <mj-class name="bgcolor--darkblue" background-color="rgb(0,59,100)" />
-    <mj-class name="bgcolor--blue" background-color="#0046bf" />
-    <mj-class name="thankyou__header" font-weight="800" line-height="25px" />
-    <mj-class name="pl-10" padding-left="10px" />
-    <mj-class name="pt-0" padding-top="10px" />
+        <mj-all font-family="Arial" />
+        <mj-class name="bgcolor--darkblue" background-color="rgb(0,59,100)" />
+        <mj-class name="bgcolor--blue" background-color="#0046bf" />
+        <mj-class name="text-darkblue" color="#003b64" />
+        <mj-class name="thankyou__header" font-weight="800" line-height="25px" />
+        <mj-class name="pl-10" padding-left="10px" />
+        <mj-class name="pt-0" padding-top="0px" />
     </mj-attributes>
 </mj-head>
   <mj-body 
@@ -31,26 +33,157 @@
        <mj-text line-height="25px" mj-class="pl-10" padding-bottom="0px">
         <h1 style="padding:0px; font-weight:900; margin-top:0px;color:rgb(0,59,100)">Maurice, thank you for shopping at Best Buy<sup>®</sup>.</h1>
        </mj-text>
-       <mj-text mj-class="pl-10">
+       <mj-text mj-class="pl-10 pt-0" line-height="16px">
            <p>Thank you for requesting an e-mail copy of your receipt. The details of your purchase are below.</p>
            <p>All your purchases are also available to view online - just click on the “View My Purchases” button.</p>
-           <p>If you need to make a return or exchange, please review our Return and Exchange Policy.</p>
+           <p>If you need to make a return or exchange, please review our <a href="https://www.bestbuy.com" target="_blank">Return and Exchange Policy</a>.</p>
            <p>We appreciate your business and look forward to seeing you again soon.</p>
            <p>Sincerely,</p>
            <p>Your Customer Care Team</p>   
-        
        </mj-text>
            
        </mj-column>
        <mj-column width="275px">
-           <mj-text>
+           <mj-text font-size="18px" align="center">
                <span style="font-weight:bold; color:rgb(73 73 74)">Member ID</span>: 458000987
            </mj-text>
-           <mj-button background-color="#fff200" color="#0046bf" font-weight="bold" align="left" border="1px solid #fbe27e" href="https://www.bestbuy.com">
+           <mj-button border-radius="0" background-color="#fff200" color="#0046bf" font-weight="bold" align="center" border="1px solid #fbe27e" href="https://www.bestbuy.com">
                View My Purchases
            </mj-button>
        </mj-column>
    </mj-section>
+
+<!-- Receipt section-->
+<mj-section mj-class="bgcolor--darkblue" padding="0px 0 0 0" text-align="left">
+   <mj-group>
+    <mj-column width="75px" padding="10px 0px" >
+        <mj-image src="img/information.jpg" alt="Information" width="30px" padding="0"/>
+    </mj-column>
+    <mj-column>
+        <mj-text color="#ffffff" padding="0px">
+            <h2 style="margin-left:0px;padding-left:0px">YOUR BEST BUY RECEIPT</h2>
+        </mj-text>
+    </mj-column>
+   </mj-group>
+</mj-section>
+<mj-section background-color="#e1e1e1" padding="10px 0px">
+    <mj-column padding="0 0 0 20px" >
+        <mj-text padding="0" font-weight="600" mj-class="text-darkblue">
+            KEEP FOR YOUR RECORDS
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Start of Receipt -->
+<mj-section background-color="#fff">
+    <mj-column>
+        <mj-image src="img/Code-11.jpg" alt="bardcode" width="300px" padding-bottom="5px" padding-top="0"/>
+        <mj-text align="center" padding-top="0px">
+            <p style="font-size:13px;font-weight:700;">******* Duplicate Receipt *******</p>
+            <center>
+            <pre style="border:1px solid black; text-align:center;width:350px;padding-top:1px">
+*********** START RECEIPT ***********
+
+          Welcome to Best Buy #478          
+             5001 NORTHERN BLVD             
+         LONG ISLAND CITY, NY 11101         
+               New York City                
+         Dept. of  Consumer Affairs         
+     Electronic Store Lic. No. 1061558      
+     Electronic Home  Lic. No. 1186182      
+     2nd hand dealer  Lic. No. 1249057      
+
+
+
+Val:100001-639148-029295-<wbr>647143-897158-43697
+
+0474 011 9461 1/31/19 00:00
+
+6361747    RB-SGA-035             14.99  
+  OFFICIAL SEGA GENESIS 6-BUTTO
+    19.99  Was Price
+     5.00- Sale Discount 
+  Sales Tax              1.33 
+8360009    ST. JUDE DO             0.68  
+  ST. JUDE DONATION            
+  Sales Tax              0.00 
+                              ---------- 
+                      Subtotal    15.67 
+                     Sales Tax     1.33 
+                              ========== 
+                         Total    17.00 
+ 
+                          CASH    20.00 
+                   CHANGE CASH     3.00 
+
+                Other Savings:     5.00 
+                Total Savings:     5.00 
+
+
+
+My Best Buy  
+Member ID XXXXXXXXX
+
+
+MAURICE,
+Thanks for shopping at Best Buy today!
+Your My Best Buy balance as of 04/30/2018
+Posted points: 0
+Go to BestBuy.com for more info
+ 
+Cell phones, cellular tablets, and cellular 
+   wearables have a 14-day return policy    
+    year-round for all customers. Major     
+   appliances have a 15-day return policy   
+    year-round for all customers. 15-day    
+  return policy on almost everything else.  
+                                            
+  Restocking fee applies on select items.   
+                                            
+  Purchases made between Nov. 1, 2019 and   
+Dec. 31, 2019 qualify for our Holiday Return
+and Exchange promise and most purchases may 
+     be returned through Jan. 14, 2020.     
+                                            
+A valid receipt is required for all returns.
+                                            
+   Returned items missing accessories are   
+  subject to a missing part fee. Best Buy   
+   reserves the right to deny any return.   
+                                            
+  For return policy details and a complete  
+    list of exceptions, ask for a policy    
+ brochure or go to www.BestBuy.com/Returns. 
+                                            
+    Best Buy is not responsible for any     
+   personal data left on a returned item.   
+                                            
+    To learn about our privacy practices    
+   please visit www.BestBuy.com/privacy.    
+                                            
+       Your Customer Service PIN is:        
+            XXXX XXXX XXX XXXXXX            
+                                            
+                                            
+
+************ END RECEIPT ************
+=====================================
+
+
+</pre>
+            </pre>
+            </center>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section background-color="#fff" mj-class="pt-0">
+    <mj-column >
+         <mj-image src="img/dealofday.jpg" alt="Deal of the Day" />
+    </mj-column>
+    <mj-column >
+        <mj-image src="img/dealofday.jpg" alt="Deal of the Day" />
+    </mj-column>
+</mj-section>
+
 
   </mj-body>
 </mjml>
