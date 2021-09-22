@@ -1,0 +1,56 @@
+<mjml>
+<mj-head>
+    <mj-title>Your Best Buy Receipt</mj-title>
+    <mj-attributes>
+    <mj-all font-family="Arial" />
+    <mj-class name="bgcolor--darkblue" background-color="rgb(0,59,100)" />
+    <mj-class name="bgcolor--blue" background-color="#0046bf" />
+    <mj-class name="thankyou__header" font-weight="800" line-height="25px" />
+    <mj-class name="pl-10" padding-left="10px" />
+    <mj-class name="pt-0" padding-top="10px" />
+    </mj-attributes>
+</mj-head>
+  <mj-body 
+  background-color="#eee">
+    <!-- Your email goes here -->
+   <mj-section mj-class="bgcolor--blue" padding="1px 0px" text-align="left">
+       <mj-column width="85px">
+       <mj-image src="img/bestbuy.jpg" alt="Best Buy" width="88px" align="center" padding="0px" href="https://www.bestbuy.com" />
+       </mj-column>
+       <mj-column width="85px" padding="0px">
+          <mj-image
+            src="img/geeksquad.jpg"
+            alt="Geek Squad"
+            width="88px" align="left" padding="0px"
+            href="https://www.geeksquad.com"
+            />
+   </mj-section>
+   <!-- Thank You Message -->
+   <mj-section background-color="#fff" padding="10px 5px">
+       <mj-column width="300px">
+       <mj-text line-height="25px" mj-class="pl-10" padding-bottom="0px">
+        <h1 style="padding:0px; font-weight:900; margin-top:0px;color:rgb(0,59,100)">Maurice, thank you for shopping at Best Buy<sup>®</sup>.</h1>
+       </mj-text>
+       <mj-text mj-class="pl-10">
+           <p>Thank you for requesting an e-mail copy of your receipt. The details of your purchase are below.</p>
+           <p>All your purchases are also available to view online - just click on the “View My Purchases” button.</p>
+           <p>If you need to make a return or exchange, please review our Return and Exchange Policy.</p>
+           <p>We appreciate your business and look forward to seeing you again soon.</p>
+           <p>Sincerely,</p>
+           <p>Your Customer Care Team</p>   
+        
+       </mj-text>
+           
+       </mj-column>
+       <mj-column width="275px">
+           <mj-text>
+               <span style="font-weight:bold; color:rgb(73 73 74)">Member ID</span>: 458000987
+           </mj-text>
+           <mj-button background-color="#fff200" color="#0046bf" font-weight="bold" align="left" border="1px solid #fbe27e" href="https://www.bestbuy.com">
+               View My Purchases
+           </mj-button>
+       </mj-column>
+   </mj-section>
+
+  </mj-body>
+</mjml>
