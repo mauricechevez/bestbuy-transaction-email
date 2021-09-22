@@ -1,6 +1,6 @@
 <mjml>
 <mj-head>
-    <mj-breakpoint width="0px" />
+    <!-- <mj-breakpoint width="0px" /> -->
     <mj-title>Your Best Buy Receipt</mj-title>
     <mj-attributes>
         <mj-all font-family="Arial" />
@@ -10,22 +10,26 @@
         <mj-class name="thankyou__header" font-weight="800" line-height="25px" />
         <mj-class name="pl-10" padding-left="10px" />
         <mj-class name="pt-0" padding-top="0px" />
+        <mj-class name="pb-0" padding-bottom="0px" />
     </mj-attributes>
 </mj-head>
   <mj-body 
   background-color="#eee">
     <!-- Your email goes here -->
    <mj-section mj-class="bgcolor--blue" padding="1px 0px" text-align="left">
-       <mj-column width="85px">
-       <mj-image src="img/bestbuy.jpg" alt="Best Buy" width="88px" align="center" padding="0px" href="https://www.bestbuy.com" />
+       <mj-group>
+            <mj-column width="85px">
+                <mj-image src="img/bestbuy.jpg" alt="Best Buy" width="88px" align="center" padding="0px" href="https://www.bestbuy.com" />
        </mj-column>
        <mj-column width="85px" padding="0px">
-          <mj-image
-            src="img/geeksquad.jpg"
-            alt="Geek Squad"
-            width="88px" align="left" padding="0px"
-            href="https://www.geeksquad.com"
-            />
+            <mj-image
+                src="img/geeksquad.jpg"
+                alt="Geek Squad"
+                width="88px" align="left" padding="0px"
+                href="https://www.geeksquad.com"
+                />
+        </mj-column>
+       </mj-group>
    </mj-section>
    <!-- Thank You Message -->
    <mj-section background-color="#fff" padding="10px 5px">
@@ -176,13 +180,55 @@ A valid receipt is required for all returns.
     </mj-column>
 </mj-section>
 <mj-section background-color="#fff" mj-class="pt-0">
-    <mj-column >
-         <mj-image src="img/dealofday.jpg" alt="Deal of the Day" />
+    <mj-column>
+         <mj-image src="img/myoffers.jpg" alt="Deal of the Day" href="https://www.bestbuy.com" />
+         <mj-text mj-class="pb-0 pt-0">
+             <small>Only for My Best Buy members</small>
+             <h3 style="width:200px;padding:0px; margin-top:5px">All your membership offers in one place.</h3>
+         </mj-text>
+         <mj-button border-radius="0" background-color="#fff200" color="#000" font-weight="bold" align="left" border="1px solid #fbe27e" href="https://www.bestbuy.com" mj-class="pt-0">
+               View My Purchases
+        </mj-button>
     </mj-column>
     <mj-column >
-        <mj-image src="img/dealofday.jpg" alt="Deal of the Day" />
+        <mj-image src="img/dealofday.jpg" alt="Deal of the Day" href="https://www.bestbuy.com" />
+        <mj-text padding-top="0" padding-bottom="7px">
+        <h3>A great deal, every day</h3> 
+        </mj-text>
+        <mj-button border-radius="0" background-color="#fff200" color="#000" font-weight="bold" align="left" border="1px solid #fbe27e" href="https://www.bestbuy.com">
+               Shop Now
+        </mj-button>
     </mj-column>
 </mj-section>
+<mj-section mj-class="bgcolor--blue pb-0 pt-0">
+    <mj-column border="2px solid red">
+        <mj-text font-weight="bold" color="#fff" align="center" vertical-align="middle" >
+            col
+        </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text font-weight="bold" color="#fff" align="center">
+            col
+        </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text font-weight="bold" color="#fff" align="center">
+            col
+        </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text font-weight="bold" color="#fff" align="center">
+            col
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column width="600px">
+    <mj-spacer height="25px" />
+        
+    </mj-column>
+</mj-section>
+
 
 
   </mj-body>
