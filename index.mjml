@@ -220,7 +220,7 @@ A valid receipt is required for all returns.
     </mj-column>
     <mj-column>
         <mj-text font-weight="bold" color="#fff" align="center" font-size="13px" padding="15px 10px 0px" >
-            <a class="mj-link" href="https://www.geeksquad.com" target="_blank">Customer Service</a>
+            <a class="mj-link" href="https://www.bestbuy.com" target="_blank">Customer Service</a>
         </mj-text>
     </mj-column>
 </mj-section>
@@ -240,7 +240,7 @@ A valid receipt is required for all returns.
              </mj-social-element>
              <mj-social-element href="https://www.pinterest.com/bestbuy" src="img/pinterest.gif">
              </mj-social-element>
-             <mj-social-element href="https://www.linkedin.com/bestbuy" src="img/linkedin.gif">
+             <mj-social-element href="https://www.linkedin.com/company/best-buy/" src="img/linkedin.gif">
              </mj-social-element>
           </mj-social>
     </mj-column>
