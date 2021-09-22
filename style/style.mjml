@@ -1,0 +1,13 @@
+<mj-style inline="inline=">
+    .mj-link{
+        text-decoration: none;
+        color: white;
+    }
+    .mj-link:hover{
+        color: white;
+    }
+    .privacy-text{
+        font-size: 10px;
+        color: #737474;
+    }
+</mj-style>
